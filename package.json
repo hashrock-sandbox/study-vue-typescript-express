@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@types/vue": "^1.0.30",
+    "axios": "^0.14.0",
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
     "html-loader": "^0.4.4",
