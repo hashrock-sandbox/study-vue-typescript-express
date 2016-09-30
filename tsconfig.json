@@ -2,7 +2,21 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es5",
-        "outDir": "./lib"
+        "outDir": "./lib",
+        "experimentalDecorators": true,
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "noImplicitThis": true,
+        "strictNullChecks": false,
+        "baseUrl": "./src",
+        "module": "amd",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node"
     },
     "exclude": [
         "node_modules",
