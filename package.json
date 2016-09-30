@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:server": "tsc -w",
-    "serve": "node-dev lib/app.js",
+    "start": "node-dev lib/app.js",
+    "serve": "cd ui && webpack-dev-server --inline --hot",
     "dev": "run-p watch:* serve"
   },
   "keywords": [],
@@ -31,6 +32,7 @@
     "url-loader": "^0.5.7",
     "vue": "^1.0.28",
     "vue-class-component": "^3.2.0",
-    "webpack": "^1.13.2"
+    "webpack": "2.1.0-beta.22",
+    "webpack-dev-server": "^2.1.0-beta.0"
   }
 }
