@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:server": "tsc -w",
-    "start": "node-dev lib/app.js",
-    "serve": "cd ui && webpack-dev-server --inline --hot",
+    "watch:frontend": "cd ui && webpack -w",
+    "serve": "node-dev lib/app.js",
     "dev": "run-p watch:* serve"
   },
   "keywords": [],
